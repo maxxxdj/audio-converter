@@ -7,8 +7,7 @@ import java.util.Arrays;
 public enum AudioType {
     MP3,
     WAV,
-    FLAC,
-    NULL;
+    FLAC;
 
     public static AudioType getType(final String input){
         return Arrays.stream(AudioType.values())

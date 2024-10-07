@@ -5,7 +5,7 @@ spring:
    banner-mode: off
 
 custom:
-  output-path: /Users/${user.name}/Downloads/
+  output-path: /Users/${user.name}/Desktop/
   is_command_line_enabled: true
   web:
     is_rest_api_enabled: true

@@ -18,7 +18,7 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:7070/api/convertTo?path=/Users/martin.miloshev/IdeaProjects/audio-converter/src/main/resources/audio/file_example.wav&outputFormat=mp3",
+					"raw": "http://localhost:7070/api/convertTo?path=/Users/{{user_name}}/IdeaProjects/audio-converter/src/main/resources/audio/file_example.wav&outputFormat=mp3",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -31,7 +31,7 @@
 					"query": [
 						{
 							"key": "path",
-							"value": "/Users/martin.miloshev/IdeaProjects/audio-converter/src/main/resources/audio/file_example.wav"
+							"value": "/Users/{{user_name}}/IdeaProjects/audio-converter/src/main/resources/audio/file_example.wav"
 						},
 						{
 							"key": "outputFormat",
@@ -54,7 +54,7 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:7070/api/convertTo?path=/Users/martin.miloshev/IdeaProjects/audio-converter/src/main/resources/audio/file_example.wav&outputFormat=mp3",
+					"raw": "http://localhost:7070/api/convertTo?path=/Users/martin.miloshev/IdeaProjects/audio-converter/src/main/resources/audio/file_example.mp3&outputFormat=wav",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -67,11 +67,11 @@
 					"query": [
 						{
 							"key": "path",
-							"value": "/Users/martin.miloshev/IdeaProjects/audio-converter/src/main/resources/audio/file_example.wav"
+							"value": "/Users/martin.miloshev/IdeaProjects/audio-converter/src/main/resources/audio/file_example.mp3"
 						},
 						{
 							"key": "outputFormat",
-							"value": "mp3"
+							"value": "wav"
 						}
 					]
 				}
