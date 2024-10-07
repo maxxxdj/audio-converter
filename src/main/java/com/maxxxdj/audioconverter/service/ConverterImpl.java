@@ -64,7 +64,7 @@ public class ConverterImpl implements Converter{
          return switch (target) {
             case MP3 -> this.convert(inputPath, MP3_CODEC, MP3);
             case WAV -> this.convert(inputPath, WAV_CODEC, WAV);
-            case FLAC, NULL -> null;
+            case FLAC -> null;
          };
     }
     private File convert(String inputPath, String codec, String outputFormat) {
