@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: audio-converter
+  main:
+   banner-mode: off
+
+custom:
+  output-path: /Users/${user.name}/Downloads/
+  is_command_line_enabled: true
+  web:
+    is_rest_api_enabled: true
+    security:
+      token_name: maxxxdj
+      token_value: maxxxdj
+
+server:
+  port: 7070

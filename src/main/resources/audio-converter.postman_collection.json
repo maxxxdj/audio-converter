@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "af2ef32b-1536-4c3a-a99b-f9b58a73e667",
+		"name": "audio-converter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14944635"
+	},
+	"item": [
+		{
+			"name": "convertToMp3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "maxxxdj",
+						"value": "maxxxdj",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:7070/api/convertTo?path=/Users/martin.miloshev/IdeaProjects/audio-converter/src/main/resources/audio/file_example.wav&outputFormat=mp3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7070",
+					"path": [
+						"api",
+						"convertTo"
+					],
+					"query": [
+						{
+							"key": "path",
+							"value": "/Users/martin.miloshev/IdeaProjects/audio-converter/src/main/resources/audio/file_example.wav"
+						},
+						{
+							"key": "outputFormat",
+							"value": "mp3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "convertToWav",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "maxxxdj",
+						"value": "maxxxdj",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:7070/api/convertTo?path=/Users/martin.miloshev/IdeaProjects/audio-converter/src/main/resources/audio/file_example.wav&outputFormat=mp3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7070",
+					"path": [
+						"api",
+						"convertTo"
+					],
+					"query": [
+						{
+							"key": "path",
+							"value": "/Users/martin.miloshev/IdeaProjects/audio-converter/src/main/resources/audio/file_example.wav"
+						},
+						{
+							"key": "outputFormat",
+							"value": "mp3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
