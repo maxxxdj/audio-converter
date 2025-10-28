@@ -5,6 +5,14 @@ spring:
    banner-mode: off
 
 custom:
+  convertors:
+    mp3:
+      enabled: true
+      bitrate: 320_000
+    wav:
+      enabled: true
+    common:
+      enabled: true
   output-path: /Users/${user.name}/Desktop/
   is_command_line_enabled: true
   web:

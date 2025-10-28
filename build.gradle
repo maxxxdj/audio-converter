@@ -21,7 +21,12 @@ dependencies {
     implementation ("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-security")
+
+    //Convertors
     implementation group: 'ws.schild', name: 'jave-all-deps', version: '3.5.0'
+
+    implementation 'com.twelvemonkeys.imageio:imageio:3.9.4'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.34'
